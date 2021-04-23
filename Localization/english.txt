@@ -1,0 +1,4 @@
+{
+    "wpn_fps_bow_crossbow_m_rocket": "Rocket-propelled Bolt",
+    "wpn_fps_bow_crossbow_m_fire": "Flaming Bolt"
+}
