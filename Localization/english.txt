@@ -1,11 +1,13 @@
 {
-    "wpn_fps_bow_crossbow_m_rocket": "Rocket-propelled Bolt",
-    "wpn_fps_bow_crossbow_m_rocket_desc": "Since normal crossbow bolts are only propelled 
+    "Thanks Matt for fixing a mild problem uwu"
+
+    "bm_wp_wpn_fps_bow_crossbow_m_rocket": "Rocket-propelled Bolt",
+    "bm_wp_wpn_fps_bow_crossbow_m_rocket_desc": "Since normal crossbow bolts are only propelled 
     by the force of the bowstring, Wolf thought it might've been a good idea to duct tape a firework rocket 
     on a crossbow bolt to make it fly faster. As long as the rocket doesn't blow up, 
     it'll probably work fine, right?",
 
-    "wpn_fps_bow_crossbow_m_fire": "Flaming Bolt",
-    "wpn_fps_bow_crossbow_m_fire_desc": "Hey, they had fire arrows in the medieval ages. 
+    "bm_wp_wpn_fps_bow_crossbow_m_fire": "Flaming Bolt",
+    "bm_wp_wpn_fps_bow_crossbow_m_fire_desc": "Hey, they had fire arrows in the medieval ages. 
     Why not fire bolts, too?\n\nJust make sure you don't set yourself on fire with it, too."
 }
