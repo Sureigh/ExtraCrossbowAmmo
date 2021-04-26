@@ -1,6 +1,4 @@
 {
-    "Thanks Matt for fixing a mild problem uwu"
-
     "bm_wp_wpn_fps_bow_crossbow_m_rocket": "Rocket-propelled Bolt",
     "bm_wp_wpn_fps_bow_crossbow_m_rocket_desc": "Since normal crossbow bolts are only propelled 
     by the force of the bowstring, Wolf thought it might've been a good idea to duct tape a firework rocket 
