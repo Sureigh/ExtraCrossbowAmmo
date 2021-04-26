@@ -1,9 +1,11 @@
-<!-- TODO: Does this color value even work lmao -->
-<!-- If that doesn't work, try (69, 179, 224) instead -->
-<mod author="Sleigh" color="Color(0.27, 0.70, 0.88)">
+<mod author="Sleigh" min_lib_ver="3.0">
     <!-- TODO: Change workshop ID to enable updates -->>
     <AssetUpdates id="-1" version="1.0" provider="modworkshop"/>
     <Localization directory="Localization" default="english.txt"/>
+
+    <Hooks directory="Hooks">
+        <hook file="weaponfactorytweaks.lua" source_file="lib/tweak_data/weapontweakdata"/>
+    </Hooks>
 
     <!-- Rocket-propelled Bolts  -->
     <WeaponMod id="wpn_fps_bow_crossbow_m_rocket" based_on="wpn_fps_bow_frankish_m_standard" 

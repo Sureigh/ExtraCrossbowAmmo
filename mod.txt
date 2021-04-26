@@ -1,12 +1,8 @@
 {
 	"name" : "Extra Crossbow Ammo",
-	"description" : "Makes crossbows great(er) again",
+	"description" : "Makes crossbows just that much more special. <3",
 	"author" : "Sleigh",
-	"blt_version" : 2,	
+	"contact": "Sleigh#2084 on Discord",
 	"color" : "46 195 256",
-	"version" : "1.0",
-	"hooks":[
-		{ "hook_id":"lib/tweak_data/weapontweakdata", "script_path":"bow_tweak_light.lua"},
-		{ "hook_id":"lib/tweak_data/weapontweakdata", "script_path":"bow_tweak_heavy.lua"}
-		]
+	"version" : "1.0"
 }
