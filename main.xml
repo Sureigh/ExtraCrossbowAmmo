@@ -9,7 +9,7 @@
     <GlobalValue id="eca" color="Color(0.27, 0.70, 0.88)"/>
 
     <!-- TODO: Actually translate content in jp and cn versions -->
-    <Localization directory="Localization" default="english.json"/>
+    <Localization directory="Localization" default="english.json">
         <loc file="english.json" language="english"/>
         <loc file="japanese.json" language="japanese"/>
         <loc file="chinese.json" language="chinese"/>
@@ -18,7 +18,7 @@
     <!-- Rocket-propelled Bolts  -->
     <WeaponMod id="wpn_fps_bow_crossbow_m_rocket" based_on="wpn_fps_bow_frankish_m_standard" 
     type="ammo" sub_type="ammo_piercing" ver="2" has_description="true" drop="false" 
-    unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+    unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy">
         <weapons>
             <value_node value="wpn_fps_bow_frankish"/>  <!-- Light Crossbow -->
             <value_node value="wpn_fps_bow_arblast"/>   <!-- Heavy Crossbow -->
@@ -29,7 +29,7 @@
     <!-- Flaming Bolts -->
     <WeaponMod id="wpn_fps_bow_crossbow_m_fire" based_on="wpn_fps_bow_frankish_m_standard" 
     type="ammo" sub_type="ammo_dragons_breath" ver="2" has_description="true" drop="false" 
-    unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+    unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy">
         <weapons>
             <value_node value="wpn_fps_bow_frankish"/>  <!-- Light Crossbow -->
             <value_node value="wpn_fps_bow_arblast"/>   <!-- Heavy Crossbow -->
