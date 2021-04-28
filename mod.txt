@@ -1,8 +1,0 @@
-{
-	"name" : "Extra Crossbow Ammo",
-	"description" : "Makes crossbows just that much more special. <3",
-	"author" : "Sleigh",
-	"contact": "Sleigh#2084 on Discord",
-	"color" : "46 195 256",
-	"version" : "1.0"
-}

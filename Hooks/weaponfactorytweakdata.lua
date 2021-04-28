@@ -18,7 +18,6 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "ECA_Bolts", function(self)
             damage = 0.8
         }
     }
-
     self.wpn_fps_bow_crossbow_m_rocket.override_weapon_add = {
         stats = {
             spread = -4
@@ -30,14 +29,12 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "ECA_Bolts", function(self)
         armor_piercing_chance = 0.5,
         AMMO_PICKUP = {0.8, 1.1}
     }
-
     self.wpn_fps_bow_crossbow_m_fire.override_weapon_multiply = {
         AMMO_MAX = 0.8,
         stats = {
             damage = 0.95
         }
     }
-
     self.wpn_fps_bow_crossbow_m_fire.override_weapon_add = {
         stats = {
             spread = -4

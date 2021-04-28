@@ -1,15 +1,24 @@
-<mod author="Sleigh" min_lib_ver="3.0">
-    <!-- TODO: Change workshop ID to enable updates -->>
-    <AssetUpdates id="-1" version="1.0" provider="modworkshop"/>
-    <Localization directory="Localization" default="english.txt"/>
+<mod author="Sleigh" color="Color(0.27, 0.70, 0.88)" min_lib_ver="3.0">
+    <!-- TODO: Change workshop ID to enable updates -->
+    <!-- Version system: 
+        - First number indicates major change
+        - Second number indicates feature addition/removal
+        - Third number indicates minor bugfix/change
+    -->
+    <AssetUpdates id="-1" version="1.0.0" provider="modworkshop"/>
+    <GlobalValue id="eca" color="Color(0.27, 0.70, 0.88)"/>
 
-    <Hooks directory="Hooks">
-        <hook file="weaponfactorytweaks.lua" source_file="lib/tweak_data/weapontweakdata"/>
-    </Hooks>
+    <!-- TODO: Actually translate content in jp and cn versions -->
+    <Localization directory="Localization" default="english.json"/>
+        <loc file="english.json" language="english"/>
+        <loc file="japanese.json" language="japanese"/>
+        <loc file="chinese.json" language="chinese"/>
+    </Localization>
 
     <!-- Rocket-propelled Bolts  -->
     <WeaponMod id="wpn_fps_bow_crossbow_m_rocket" based_on="wpn_fps_bow_frankish_m_standard" 
-    type="ammo" sub_type="ammo_piercing" ver="2" has_description="true">
+    type="ammo" sub_type="ammo_piercing" ver="2" has_description="true" drop="false" 
+    unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
         <weapons>
             <value_node value="wpn_fps_bow_frankish"/>  <!-- Light Crossbow -->
             <value_node value="wpn_fps_bow_arblast"/>   <!-- Heavy Crossbow -->
@@ -19,15 +28,21 @@
 
     <!-- Flaming Bolts -->
     <WeaponMod id="wpn_fps_bow_crossbow_m_fire" based_on="wpn_fps_bow_frankish_m_standard" 
-    type="ammo" sub_type="ammo_dragons_breath" ver="2" has_description="true">
+    type="ammo" sub_type="ammo_dragons_breath" ver="2" has_description="true" drop="false" 
+    unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
         <weapons>
             <value_node value="wpn_fps_bow_frankish"/>  <!-- Light Crossbow -->
             <value_node value="wpn_fps_bow_arblast"/>   <!-- Heavy Crossbow -->
             <value_node value="wpn_fps_bow_ecp"/>       <!-- Airbow -->
         </weapons>
     </WeaponMod>
-    
-    <!-- TODO: learn how to draw you pleb
+
+    <Hooks directory="Hooks">
+        <hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+    </Hooks>
+
+    <!-- TODO: learn how to draw you pleb -->
+    <!-- 
     <AddFiles directory="assets">
         <dds path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_bow_crossbow_m_rocket/">
         <dds path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_bow_crossbow_m_fire/">

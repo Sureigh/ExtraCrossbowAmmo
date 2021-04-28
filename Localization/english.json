@@ -1,0 +1,9 @@
+{
+    "menu_l_global_value_eca" : "This is an Extra Crossbow Ammo addition!",
+
+    "bm_wp_wpn_fps_bow_crossbow_m_rocket": "Rocket-propelled Bolt",
+    "bm_wp_wpn_fps_bow_crossbow_m_rocket_desc": "Wolf thought it might've been a good idea to duct tape fireworks to a crossbow bolt to make it fly faster. As long as the rocket doesn't blow up, it'll probably work fine, right?",
+
+    "bm_wp_wpn_fps_bow_crossbow_m_fire": "Flaming Bolt",
+    "bm_wp_wpn_fps_bow_crossbow_m_fire_desc": "Hey, they had fire arrows in the medieval ages. Why not fire bolts, too?\n\nJust make sure you don't set yourself on fire with it, too."
+}
