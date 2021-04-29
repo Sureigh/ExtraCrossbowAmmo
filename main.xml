@@ -17,8 +17,7 @@
 
     <!-- Rocket-propelled Bolts  -->
     <WeaponMod id="wpn_fps_bow_crossbow_m_rocket" based_on="wpn_fps_bow_frankish_m_standard" 
-    type="ammo" sub_type="ammo_piercing" ver="2" has_description="true" drop="false" 
-    unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy">
+    type="ammo" sub_type="ammo_piercing" ver="2" has_description="true" drop="false">
         <weapons>
             <value_node value="wpn_fps_bow_frankish"/>  <!-- Light Crossbow -->
             <value_node value="wpn_fps_bow_arblast"/>   <!-- Heavy Crossbow -->
@@ -28,8 +27,7 @@
 
     <!-- Flaming Bolts -->
     <WeaponMod id="wpn_fps_bow_crossbow_m_fire" based_on="wpn_fps_bow_frankish_m_standard" 
-    type="ammo" sub_type="ammo_dragons_breath" ver="2" has_description="true" drop="false" 
-    unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy">
+    type="ammo" sub_type="ammo_dragons_breath" ver="2" has_description="true" drop="false">
         <weapons>
             <value_node value="wpn_fps_bow_frankish"/>  <!-- Light Crossbow -->
             <value_node value="wpn_fps_bow_arblast"/>   <!-- Heavy Crossbow -->
@@ -41,11 +39,8 @@
         <hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
     </Hooks>
 
-    <!-- TODO: learn how to draw you pleb -->
-    <!-- 
-    <AddFiles directory="assets">
+    <AddFiles directory="Assets">
         <dds path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_bow_crossbow_m_rocket/">
         <dds path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_bow_crossbow_m_fire/">
     </AddFiles>
-    -->
 </mod>
